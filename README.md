@@ -2,6 +2,16 @@
 
 A Windows desktop application that simplifies the process of setting the inform URL on UniFi devices when adopting them to a new controller. This tool helps resolve devices stuck in "adopting" state by connecting via SSH and executing the `set-inform` command.
 
+## SmartScreen Warning
+
+When downloading and running the executable for the first time, Windows SmartScreen may show a warning that the app is from an "Unknown publisher". This is normal for unsigned applications.
+
+**To run the app:**
+1. Click "More info"
+2. Click "Run anyway"
+
+The app is safe to use - the source code is available for review on GitHub.
+
 ## Features
 
 - **Slot Management**: Save and manage multiple device configurations for quick reuse
